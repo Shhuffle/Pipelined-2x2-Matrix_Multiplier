@@ -15,6 +15,9 @@ Matrix multiplication is widely used in **digital signal processing (DSP), AI ac
 ┌───────────────┐        ┌───────────────┐        ┌───────────────┐
 │   MemFetch    │  --->  │   ALU Array   │  --->  │ Add Accumulator │
 └───────────────┘        └───────────────┘        └───────────────┘
+
+
+
    Fetches matrix           Computes element-         Adds products to
    elements from            wise multiplications      get final result
    memory and feeds         and outputs partial      (C11, C12, C21, C22)
